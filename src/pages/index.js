@@ -71,14 +71,13 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
         {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">
-              <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CEAIPK3U&placement=pnpmio" id="_carbonads_js"></script>
               <div style={{ marginBottom: '24px', textAlign: 'center' }}>
                 <iframe className={styles.youtubeVideo} src="https://www.youtube.com/embed/zbaS55VFnt0?si=LRbqt462q6RNIOHf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
               </div>
