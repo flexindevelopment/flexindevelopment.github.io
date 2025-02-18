@@ -1,47 +1,22 @@
 ---
 sidebar_position: 1
+title: Introduction
 ---
 
-# Tutorial Intro
+import DisplayMembers from '@site/src/components/DisplayMembers';
 
-Let's discover **Docusaurus in less than 5 minutes**.
+# Introduction
 
-## Getting Started
+Flexin Development is a dedicated team focused on creating **high-quality, customizable, and optimized scripts** for FiveM servers. Our mission is to provide server owners with innovative tools that enhance gameplay, improve performance, and deliver a professional experience for players.
 
-Get started by **creating a new site**.
+Whether you're running a roleplay, racing, or any other type of server, our scripts are designed to meet your needs and exceed your expectations. Explore our documentation to learn more about our products and how they can take your server to the next level.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+If you find any issues or have suggestions for improvement, please let us know using the links in the sidebar. Your feedback helps us grow!
 
-### What you'll need
+## Our Team
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+We are a passionate group of developers, combining both hobbyists and professionals, who are committed to delivering top-notch solutions for the FiveM community. While we love what we do, maintaining and improving our scripts requires time and resources.
 
-## Generate a new site
+Our team members work tirelessly to ensure everything runs smoothly. Feel free to check out their contributions or show your support by connecting with them below.
 
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+<DisplayMembers/>
