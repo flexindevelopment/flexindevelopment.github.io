@@ -67,12 +67,60 @@ function Feature({imageUrl, title, description}) {
   );
 }
 
+const Showcase = props => {
+  return (
+    <div className="mainContainer" style={{backgroundColor: 'var(--ifm-color-emphasis-100)', padding: '2rem 0'}}>
+      <div style={{margin: '0 auto', maxWidth: '1100px', padding: '0 20px'}}>
+        <div className="showcaseSection text--center">
+          <div className="prose" style={{marginBottom: '20px'}}>
+            <h1>Partners</h1>
+            <div className="logos" style={{
+              alignItems: 'center',
+              display: 'flex',
+              flexFlow: 'row wrap',
+              justifyContent: 'center',
+            }}>
+              <a href="https://discord.gg/lineup" target="_blank">
+                <img style={{padding: '20px'}} width="120" alt="Line Up" src="/img/partners/lineup.png" />
+              </a>
+              <a href="https://keepo.io/expansing" target="_blank">
+                <img style={{padding: '20px'}} width="160" alt="Expansing" src="/img/partners/expansing.png" />
+              </a>
+              <a href="https://discord.gg/kbEkFxMNC4" target="_blank">
+                <img style={{padding: '20px'}} width="160" alt="The Best Mods" src="/img/partners/thebestmods.png" />
+              </a>
+              <a href="https://discord.gg/RP6R8KFGM7" target="_blank">
+                <img style={{padding: '20px'}} width="120" alt="2 Play Store" src="/img/partners/2playstore.png" />
+              </a>
+              <a href="https://discord.gg/2htw4ha7AW" target="_blank">
+                <img style={{padding: '20px'}} width="120" alt="Oskar" src="/img/partners/oskar.png" />
+              </a>
+              <a href="https://discord.gg/8Y6nZMJyn9" target="_blank">
+                <img style={{padding: '20px'}} width="120" alt="Alien Mods" src="/img/partners/alienmods.png" />
+              </a>
+              <a href="https://discord.gg/aVxxNTg9kh" target="_blank">
+                <img style={{padding: '20px'}} width="120" alt="AS King" src="/img/partners/asking.png" />
+              </a>
+              <a href="https://discord.gg/YcEWFJEJ7J" target="_blank">
+                <img style={{padding: '20px'}} width="120" alt="Hypee" src="/img/partners/hypee.png" />
+              </a>
+              <a href="https://discord.gg/28fHypvTdm" target="_blank">
+                <img style={{padding: '20px'}} width="120" alt="GN Mods" src="/img/partners/gnmods.png" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="FiveM best innovations">
       <HomepageHeader />
       <main>
         {features && features.length > 0 && (
@@ -89,6 +137,7 @@ export default function Home() {
             </div>
           </section>
         )}
+        <Showcase></Showcase>
       </main>
     </Layout>
   );

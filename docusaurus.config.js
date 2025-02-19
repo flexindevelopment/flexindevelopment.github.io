@@ -76,7 +76,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/flexindevelopment-social-card.jpg',
       navbar: {
         title: 'Flexin Development',
         logo: {
@@ -96,6 +96,12 @@ const config = {
             position: 'right',
             className: 'header-github-link',
             'aria-label': 'GitHub repository',
+          },
+          {
+            href: 'https://discord.gg/flexgg',
+            position: 'right',
+            className: 'header-discord-link',
+            'aria-label': 'Discord',
           },
         ],
       },
