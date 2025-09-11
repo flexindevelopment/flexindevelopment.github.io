@@ -48,7 +48,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/flexindevelopment/flexindevelopment.github.io/tree/main/docs',
+            'https://github.com/flexindevelopment/flexindevelopment.github.io/tree/main/',
         },
         // blog: {
         //   showReadingTime: true,
@@ -86,7 +86,7 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'mySidebar',
             position: 'left',
             label: 'Docs',
           },
@@ -114,6 +114,30 @@ const config = {
               {
                 label: 'Introduction',
                 to: '/docs/intro',
+              },
+              {
+                label: 'Animations',
+                to: '/docs/animations/introduction',
+              },
+              {
+                label: 'Anti Bump',
+                to: '/docs/antibump/introduction',
+              },
+              {
+                label: 'Prime Control',
+                to: '/docs/primecontrol/introduction',
+              },
+              {
+                label: 'Remapping',
+                to: '/docs/remapping/introduction',
+              },
+              {
+                label: 'Skin Weapon',
+                to: '/docs/skinweapon/introduction',
+              },
+              {
+                label: 'Stance Tuning',
+                to: '/docs/stancetuning/introduction',
               },
             ],
           },
@@ -153,13 +177,18 @@ const config = {
           src: 'img/logos/logo-light.png',
         },
       },
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
+      },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
       algolia: {
         appId: '267S8NPJ4F',
-        apiKey: 'af0c822207e1640b526c451bb9369c0e',
+        apiKey: 'a04b9b1d2750f3d8ef79de62d343d8cb',
         indexName: 'flexindevelopmentio',
         contextualSearch: true,
       },

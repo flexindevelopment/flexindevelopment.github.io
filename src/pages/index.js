@@ -127,7 +127,7 @@ export default function Home() {
           <section className={styles.features}>
             <div className="container">
               <div style={{ marginBottom: '24px', textAlign: 'center' }}>
-                <iframe className={styles.youtubeVideo} src="https://www.youtube.com/embed/zbaS55VFnt0?si=LRbqt462q6RNIOHf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
+                <iframe className={styles.youtubeVideo} src="https://www.youtube.com/embed/ERm-HaDD5uA?si=He_JHksbI-lTf_kK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
               </div>
               <div className="row">
                 {features.map((props, idx) => (
