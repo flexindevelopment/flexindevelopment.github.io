@@ -34,7 +34,7 @@ return {
 
   -- handling editor
   handlingEditor = {
-    decimalPlaces = 3,
+    enable = true,
     keepInput = false,
     commandOpen = "handling",
     keyOpen = "F9" -- Input Parameter from https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
@@ -42,6 +42,7 @@ return {
 
   -- speed test
   speedTest = {
+    enable = true,
     commandOpen = "speedtest",
     keyOpen = "F10", -- Input Parameter from https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
     commandReset = "resetspeedtest",
@@ -106,6 +107,9 @@ return {
   -- remove weight passenger
   removeWeightPassenger = true,
 
+  -- disable double clutch
+  disableDoubleClutch = true,
+
   -- vehicle stall
   vehicleStall = {
     enable = true,
@@ -139,7 +143,7 @@ lua54 "yes"
 name "flexin_primecontrol"
 description "Prime Control"
 author "JesusBGK"
-version "1.0.3"
+version "1.1.0"
 
 dependencies {
   "ox_lib"

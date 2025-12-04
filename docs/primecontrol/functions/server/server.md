@@ -93,6 +93,17 @@ print(Stall)
     3
 ]]
 ```
+## SetVehicleStall
+
+Set vehicle stall.
+
+```lua
+exports.flexin_primecontrol:SetVehicleStall(Network,Stall)
+```
+
+- Network: `number`
+- Stall: `number`
+
 ## SetVehicleStallFix
 
 Set vehicle stall fix.
